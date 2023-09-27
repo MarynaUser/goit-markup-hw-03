@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -9,6 +15,7 @@ body {
 header {
     background-color: #FFFFFF;
 }
+
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -23,6 +30,7 @@ header {
 .multicolor-secondpart-header {
     color: #2e2f42;
 }
+
 
 .page-nav .link {
     color: #2E2F42;
@@ -67,6 +75,23 @@ header {
 }
 
 /*main*/
+
+.nav{
+    display: flex;
+    gap: 24px;
+}
+
+.services{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.team-photo{
+    display: flex;
+    gap: 24px;
+}
 
 .first-section {
     background-color: #2e2f42;
@@ -203,4 +228,20 @@ a {
 
 ul {
     list-style-type: none;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.container {
+    max-width: 1158px;
+    margin: 0 auto;
 }
