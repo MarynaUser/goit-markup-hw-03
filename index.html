@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
@@ -19,19 +20,17 @@
 
 
 <body>
-    <div class="container">
-    <header>
-        
-        <nav>
+    <header class="header">
+        <div class="div-header" >        
+            <nav class="navigation">
+                <a href="./index.html" class="logo">WEB<span class="multicolor-secondpart-header">Studio</span></a>
+                    <ul class="page-nav">
+                            <li><a class="link" href="./index.html">Studio</a></li>
+                            <li><a class="link" href="">Portfolio</a></li>
+                            <li><a class="link" href="">Contacts</a></li>
+                    </ul>
             
-            <a href="./index.html" class="logo">WEB<span class="multicolor-secondpart-header">Studio</span></a>
-            <ul class="page-nav">
-                <li><a class="link" href="./index.html">Studio</a></li>
-                <li><a class="link" href="">Portfolio</a></li>
-                <li><a class="link" href="">Contacts</a></li>
-            </ul>
-            
-        </nav>
+            </nav>
         
         <address class="contacts-info">
             <ul>
@@ -39,20 +38,23 @@
                 <li><a class="contacts-text" href="./index.html">+11 (000) 111-11-11</a></li>
             </ul>
         </address>
+        </div>
     </header>
 
     <main>
-
+        <div class="container">
         <section class="first-section">
             <h1 class="first-section-title">Effective Solutions for Your Business</h1>
             <button class="button-main" type="button">Order Service</button>
 
         </section>
+        </div>
 
+        <div class="container">
         <section class="next-section">
-            <h2 class="section-title">Temporary title</h2>
+            <h2 class="section-title" class="visually-hidden">Temporary title</h2>
             <ul class="nav">
-                <li>
+                <li class="point">
                     <h3 class="title-block">Strategy</h3>
                     <p class="description">Our goal is to identify the business problem to walk away with the perfect
                         and creative solution.</p>
@@ -79,85 +81,112 @@
             </ul>
 
         </section>
+        </div>
 
+        <div class="container">
         <section class="next-title-team">
             <h2 class="next-title-ourteam">Our Team</h2>
             <ul class="team-photo">
-                <li class="photo-color">
+                <li class="photo-color" class="second-point">
                     <img src="./images/img.jpg" alt="Mark Guerrero" width="264" height="260">
-                    <h3 class="title-block">Mark Guerrero</h3>
+                    <div class="employee-position">
+                    <h3 class="name">Mark Guerrero</h3>
                     <p class="description">Product Designer</p>
+                    </div>
                 </li>
 
                 <li class="photo-color">
                     <img src="./images/img_1.jpg" alt="Tom Ford" width="264" height="260">
-                    <h3 class="title-block">Tom Ford</h3>
+                    <div class="employee-position">
+                    <h3 class="name">Tom Ford</h3>
                     <p class="description">Frontend Developer</p>
+                    </div>
                 </li>
 
                 <li class="photo-color">
                     <img src="./images/img_2.jpg" alt="Camila Garcia" width="264" height="260">
-                    <h3 class="title-block">Camila Garcia</h3>
+                    <div class="employee-position">
+                    <h3 class="name">Camila Garcia</h3>
                     <p class="description">Marketing</p>
+                    </div>
                 </li>
 
                 <li class="photo-color">
                     <img src="./images/img_3.jpg" alt="Daniel Wilson" width="264" height="260">
-                    <h3 class="title-block">Daniel Wilson</h3>
+                    <div class="employee-position">
+                    <h3 class="name">Daniel Wilson</h3>
                     <p class="description">UI Designer</p>
+                    </div>
                 </li>
             </ul>
 
         </section>
+        </div>
 
+        <div class="container">
         <section class="next-title">
             <h2 class="next-title-ourportfolio">Our Portfolio</h2>
+
             <ul class="services">
-                <li>
+                <li class="first-point">
                     <img src="./images/banking_app.jpg" alt="Banking App" width="360" height="300">
+                    <div class="banking-app">
                     <h3 class="title-block">Banking App</h3>
-                    <p class="description">App</p>
+                    <p class="option">App</p>
+                    </div>
                 </li>
 
                 <li>
                     <img src="./images/cashless_payment.jpg" alt="Cashless Payment" width="360" height="300">
+                    <div class="cashless-payment">
                     <h3 class="title-block">Cashless Payment</h3>
-                    <p class="description">Marketing</p>
+                    <p class="option">Marketing</p>
+                    </div>
                 </li>
 
                 <li>
                     <img src="./images/meditation_app.jpg" alt="Meditation App" width="360" height="300">
+                    <div class="meditation-app">
                     <h3 class="title-block">Meditation App</h3>
-                    <p class="description">App</p>
+                    <p class="option">App</p>
+                    </div>
                 </li>
 
                 <li>
                     <img src="./images/taxi_service.jpg" alt="Taxi Service" width="360" height="300">
+                    <div class="taxi-service">
                     <h3 class="title-block">Taxi Service</h3>
-                    <p class="description">Marketing</p>
+                    <p class="option">Marketing</p>
+                    </div>
                 </li>
 
                 <li>
                     <img src="./images/screen_illustrations.jpg" alt="Screen Illustrations" width="360" height="300">
+                    <div class="screen-illustrations">
                     <h3 class="title-block">Screen Illustrations</h3>
-                    <p class="description">Design</p>
+                    <p class="option">Design</p>
+                    </div>
                 </li>
 
                 <li>
                     <img src="./images/online_courses.jpg" alt="Online Courses" width="360" height="300">
+                    <div class="online-courses">
                     <h3 class="title-block">Online Courses</h3>
-                    <p class="description">Marketing</p>
+                    <p class="option">Marketing</p>
+                    </div>
                 </li>
             </ul>
         </section>
+        </div>
     </main>
 
     <footer class="footer-info">
+        <div class="container">
         <a href="./index.html" class="logo">WEB<span class="multicolor-secondpart-footer">Studio</span></a>
         <p class="footer-description">Increase the flow of customers and sales for your business with digital marketing
             & growth solutions.</p>
+            </div>
     </footer>
-    </div>
     </body>
 
 </html>
