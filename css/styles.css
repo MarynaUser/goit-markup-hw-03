@@ -17,9 +17,7 @@ body {
 }
 
 .div-header{
-    justify-content: center;
-    align-items: center;
-    display: inline-flex;
+    display: flex;
 }
 
 .logo {
