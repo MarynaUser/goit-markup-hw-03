@@ -12,10 +12,15 @@ body {
 
 /*header*/
 
-header {
-    background-color: #FFFFFF;
+.header{
+    border-bottom: 1px solid #e7e9fc
 }
 
+.div-header{
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -81,29 +86,44 @@ header {
     gap: 24px;
 }
 
-.services{
-    display: flex;
-    gap: 24px;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.point {
+    width: calc((100% - 72px) / 4);
 }
 
 .team-photo{
     display: flex;
     gap: 24px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.name {
+    color: #2e2f42;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.second-point {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .first-section {
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 
 .first-section-title {
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
     background-color: #2e2f42;
+    text-align: center;
+    max-width: 496px;
 }
 
 .section-title {
@@ -112,6 +132,17 @@ header {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+}
+
+.visually-hidden {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
 }
 
 .button-main {
@@ -125,6 +156,10 @@ header {
     letter-spacing: 0.04em;
     margin: 0 auto;
     display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 .button-main:hover {
@@ -135,6 +170,9 @@ header {
     background-color: #404BBF;
 }
 
+.next-section {
+    padding: 120px 0
+}
 
 .next-section-title {
     color: #2E2F42;
@@ -148,8 +186,15 @@ header {
     color: #2E2F42;
     font-size: 36px;
     line-height: 1.1;
+    padding: 120px 0;
 
 }
+
+.employee-position {
+    padding: 32px 0
+}
+
+
 
 .next-title-ourteam {
     background-color: #F4F4FD;
@@ -158,6 +203,7 @@ header {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .photo-color {
@@ -172,12 +218,30 @@ header {
     letter-spacing: 0.02em;
 } 
 
+.title-block-one {
+    text-align: center;
+}
+
+.next-title {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .next-title-ourportfolio {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .description {
@@ -185,6 +249,54 @@ header {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.option {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.banking-app {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.cashless-payment {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.meditation-app {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.taxi-service {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.screen-illustrations {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.online-courses {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.first-point {
+    width: calc((100% - 48px) / 3);
 }
 
 .part-one {
@@ -198,6 +310,10 @@ header {
 
 /*footer*/
 
+.footer-info {
+    padding: 100px 0
+}
+
 footer {
     background-color: #2E2F42;
 }
@@ -210,6 +326,8 @@ footer {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .multicolor-secondpart-footer {
@@ -221,6 +339,7 @@ footer {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
 
 
@@ -246,4 +365,8 @@ ul,ol {
 .container {
     max-width: 1158px;
     margin: 0 auto;
+}
+
+img{
+    display: block;
 }
