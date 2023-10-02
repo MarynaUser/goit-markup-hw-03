@@ -139,10 +139,12 @@ body {
 
 .section-one {
     padding: 188px 0;
+
 }
 
 .section-title-one {
     max-width: 496px;
+
 }
 
 .first-section-title {
@@ -187,6 +189,7 @@ body {
     height: 56px;
     border: none;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .button-main:hover {
