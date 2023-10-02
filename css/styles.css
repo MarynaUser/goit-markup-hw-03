@@ -398,6 +398,6 @@ ul,ol {
     padding: 0 15px;
 }
 
-img{
+.block-image {
     display: block;
 }
