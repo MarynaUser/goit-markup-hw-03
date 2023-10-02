@@ -16,6 +16,7 @@ body {
     border-bottom: 1px solid #e7e9fc;
     display: flex;
     gap: 40px;
+    padding: 24px 0;
     
 }
 
@@ -28,6 +29,7 @@ body {
     display: flex;
     gap: 40px;
     align-items: center;
+    padding: 24px 0;
 }
 
 .page-nav {
@@ -37,7 +39,7 @@ body {
 
 .page-nav-li {
     display: block;
-    padding: 24px 0
+    padding: 24px 0;
 }
 
 .logo {
@@ -153,6 +155,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 48px;
+    word-wrap: break-word;
 
 }
 
@@ -162,6 +165,7 @@ body {
     letter-spacing: 0.02em;
     color: #ffffff;
     background-color: #2e2f42;
+    word-wrap: break-word;
 }
 
 .section-title {
@@ -387,4 +391,17 @@ ul,ol {
 
 .block-image {
     display: block;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
