@@ -109,6 +109,8 @@ body {
 .navigation-two {
     display: flex;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 /*main*/
@@ -150,14 +152,6 @@ body {
 
 }
 
-.section-title-one {
-    max-width: 496px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 48px;
-    word-wrap: break-word;
-
-}
 
 .first-section-title {
     font-size: 56px;
@@ -166,6 +160,10 @@ body {
     color: #ffffff;
     background-color: #2e2f42;
     word-wrap: break-word;
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
 }
 
 .section-title {
@@ -214,6 +212,14 @@ body {
     font-size: 36px;
     line-height: 1.1;
 
+}
+
+.description-one {
+    word-wrap: break-word;
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .list-item {
