@@ -16,11 +16,12 @@ body {
     border-bottom: 1px solid #e7e9fc;
     display: flex;
     gap: 40px;
+    
 }
 
 .div-header{
     display: flex;
-    gap: 40px;
+
 }
 
 .navigation {
@@ -35,7 +36,8 @@ body {
 }
 
 .page-nav-li {
-    padding: 24px 0;
+    padding:0 24px ;
+    display: block;
 }
 
 .logo {
@@ -46,7 +48,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px;
+
 }
 
 .multicolor-secondpart-header {
@@ -77,8 +79,9 @@ body {
 
 .contacts-info {
     font-style: normal;
-    display: flex;
-    gap: 40px;
+    margin-left: auto;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .contacts-info .contacts-text {
@@ -144,6 +147,9 @@ body {
 
 .section-title-one {
     max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
 
 }
 
@@ -271,7 +277,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    margin-bottom: 8px
+    margin-bottom: 72px;
 }
 
 .services {
@@ -287,6 +293,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .option {
