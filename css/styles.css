@@ -36,8 +36,8 @@ body {
 }
 
 .page-nav-li {
-    padding:0 24px ;
     display: block;
+    padding: 24px 0
 }
 
 .logo {
@@ -48,6 +48,9 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
+    margin-top: 24px;
+    margin-bottom: 24px;
 
 }
 
