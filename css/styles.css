@@ -383,7 +383,7 @@ footer {
 
 }
 
-.logo {
+.logo-footer {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     line-height: 1.17;
@@ -392,6 +392,7 @@ footer {
     text-transform: uppercase;
     color: #4d5ae5;
     display: inline-block;
+    margin-bottom: 16px;
    
 }
 
