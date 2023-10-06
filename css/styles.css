@@ -18,12 +18,12 @@ body {
     border-bottom: 1px solid #e7e9fc;
     display: flex;
     gap: 40px;
-    padding: 24px 0;
-    
+  
 }
 
 .div-header{
     display: flex;
+    align-items: center;
 
 }
 
@@ -31,8 +31,7 @@ body {
     display: flex;
     gap: 40px;
     align-items: center;
-    padding: 24px 0;
-
+    
 }
 
 .page-nav {
@@ -56,8 +55,6 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
-    margin-top: 24px;
-    margin-bottom: 24px;
 
 }
 
@@ -95,8 +92,6 @@ body {
 .contacts-info {
     font-style: normal;
     margin-left: auto;
-    padding-top: 24px;
-    padding-bottom: 24px;
 
 }
 
@@ -122,9 +117,7 @@ body {
 .navigation-two {
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
-
+   
 }
 
 /*main*/
@@ -178,7 +171,7 @@ body {
     letter-spacing: 0.02em;
     color: #ffffff;
     background-color: #2e2f42;
-    word-wrap: break-word;
+    align-items: center;
     max-width: 496px;
     margin-left: auto;
     margin-right: auto;
@@ -399,8 +392,7 @@ footer {
     text-transform: uppercase;
     color: #4d5ae5;
     display: inline-block;
-    margin-bottom: 16px;
-
+   
 }
 
 .multicolor-secondpart-footer {
