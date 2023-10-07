@@ -17,7 +17,6 @@ body {
 .header{
     border-bottom: 1px solid #e7e9fc;
     display: flex;
-    gap: 40px;
   
 }
 
@@ -29,7 +28,6 @@ body {
 
 .navigation {
     display: flex;
-    gap: 40px;
     align-items: center;
     
 }
@@ -271,6 +269,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     margin-bottom: 72px;
+    margin-top: 0;
 
 }
 
@@ -319,6 +318,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     margin-bottom: 72px;
+    margin-top: 0;
 
 }
 
